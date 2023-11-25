@@ -260,7 +260,7 @@ h1 {
 .container-mapa {
   position: relative;
   overflow: hidden;
-  height: 100%;
+  width: 100%;
   padding-top: 20%;
 }
 .mapa-responsivo {
@@ -343,7 +343,7 @@ footer span {
   .container-mapa {
     position: relative;
     overflow: hidden;
-    height: 100%;
+    width: 100%;
     padding-top: 20%;
   }
   .mapa-responsivo {
