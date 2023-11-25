@@ -1,16 +1,16 @@
 function mostrarMenu() {
-    var menu = document.getElementById ("menu-header");
+    var menu = document.getElementById("menu-header");
     var icone = document.getElementById("icone-menu");
 
     if (getComputedStyle(menu).display == 'none') {
         menu.style.display = "flex"; 
         icone.classList.remove("fa-bars"); 
         icone.classList.add("fa-times"); 
-        // Mudandoo class para fa-times 
+        // Mudando o class para fa-times 
     } else {
         menu.style.display = "none"; 
         icone.classList.remove("fa-times"); 
         icone.classList.add("fa-bars"); 
-        // Mudandoo class para fa-bars [ icone barras ]
+        // Mudando o class para fa-bars [ icone barras ]
     }
 }
